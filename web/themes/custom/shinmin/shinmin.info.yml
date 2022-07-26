@@ -1,0 +1,23 @@
+name: 'Shinmin'
+description: 'Shinmin Template'
+core: 8.x
+core_version_requirement: ^8 || ^9
+type: theme
+base theme: classy
+
+libraries:
+  - shinmin/shinmin-css
+  - shinmin/global-font
+  - core/normalize
+
+regions:
+  header: Header
+  highlighted: Highlighted
+  help: Help
+  content: Content
+  sidebar_first: Left Sidebar
+  sidebar_second: Right Sidebar
+  front: Front Page Blocks
+  footer: Footer
+  page_top: Page top
+  page_bottom: Page bottom

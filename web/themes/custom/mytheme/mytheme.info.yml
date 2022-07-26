@@ -1,0 +1,16 @@
+name: 'My Great Theme'
+description: 'This is my first theme project'
+core: 8.x
+core_version_requirement: ^8 || ^9
+type: theme
+base theme: stark
+screenshot: screenshot.png
+
+regions:
+    header: Header
+    mythememenu: Navigation
+    content: Content
+    sidebar_first: Sider First
+    footer: Footer
+    page_top: Page top
+    page_bottom: Page bottom
