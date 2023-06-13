@@ -1,14 +1,19 @@
+global-styling:
+  version: 1.0
+  header: TRUE
+  dependencies:
+    - core/drupal
 shinmin-css:
   version: 1.0
   css:
     base:
       css/base/main.css: {}
-    layout:
-      css/layout/layout.css: {}
-    component:
-      css/components/menu.css: {}
-      css/components/button.css: {}
-      css/components/views.css: {}
+    # layout:
+    #   css/layout/layout.css: {}
+    # component:
+    #   css/components/menu.css: {}
+    #   css/components/button.css: {}
+    #   css/components/views.css: {}
 
 global-font:
   license:

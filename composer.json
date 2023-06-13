@@ -21,6 +21,7 @@
         "drupal/bootstrap": "^3.25",
         "drupal/breeze": "^3.0",
         "drupal/color-color": "^1.0",
+        "drupal/components": "^2.4",
         "drupal/core-composer-scaffold": "9.4.0",
         "drupal/core-project-message": "9.4.0",
         "drupal/core-recommended": "9.4.0",
@@ -32,6 +33,8 @@
         "drupal/restui": "^1.20",
         "drupal/scheduler": "^1.4",
         "drupal/simple_gmap": "^3.0",
+        "drupal/simplify_menu": "^2.1",
+        "drupal/twig_tweak": "^2.9",
         "drush/drush": "^11.0"
     },
     "conflict": {

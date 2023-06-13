@@ -42,10 +42,11 @@
  * @see html.html.twig
  */
 #}
-<div class="layout-container">
+<div class="wrap container-lg">
 
-  <header role="banner">
+	<header role="banner">
     {{ page.header }}
+		{% include '@shinmin/includes/banner.html.twig' %}
   </header>
 
   {{ page.breadcrumb }}
@@ -54,7 +55,7 @@
 
   {{ page.help }}
 
-  <main role="main">
+  <main role="main" class="main">
     <a id="main-content" tabindex="-1"></a>{# link is in html.html.twig #}
 
     {% if page.front %}
